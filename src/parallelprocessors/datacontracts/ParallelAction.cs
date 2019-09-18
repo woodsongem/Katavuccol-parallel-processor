@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using ParallelProcessor.Processor;
+using ParallelProcessors.Processor;
 
-namespace ParallelProcessor.DataContracts
+namespace ParallelProcessors.DataContracts
 {
     public class ParallelAction<T>
     {

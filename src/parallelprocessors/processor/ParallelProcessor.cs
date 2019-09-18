@@ -4,9 +4,9 @@ using System.Net.Http.Headers;
 using System.Collections.Generic;
 using System.Linq;
 using KatavuccolCommon.Extensions;
-using ParallelProcessor.DataContracts;
+using ParallelProcessors.DataContracts;
 
-namespace ParallelProcessor.Processor
+namespace ParallelProcessors.Processor
 {
     public class ParallelProcessor : IParallelProcessor
     {

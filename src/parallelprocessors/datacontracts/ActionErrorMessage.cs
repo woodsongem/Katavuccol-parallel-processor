@@ -1,4 +1,4 @@
-namespace ParallelProcessor.DataContracts
+namespace ParallelProcessors.DataContracts
 {
     public class ActionErrorMessage
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using ParallelProcessor.DataContracts;
+using ParallelProcessors.DataContracts;
 
-namespace ParallelProcessor.Processor
+namespace ParallelProcessors.Processor
 {
     public interface IParallelProcessor
     {
