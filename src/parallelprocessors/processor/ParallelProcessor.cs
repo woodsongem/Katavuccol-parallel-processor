@@ -12,7 +12,7 @@ namespace ParallelProcessors.Processor
     {
         public List<ActionErrorMessage> Execute<T>(List<ParallelAction<T>> actions = null)
         {
-            if (actions.AnyWithNullCheck())
+            if (!actions.AnyWithNullCheck())
                 throw new ArgumentNullException();
             var nonParallels = actions.Where(x => !x.IsParallel);
             foreach (var action in nonParallels)
